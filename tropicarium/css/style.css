@@ -19,6 +19,7 @@ p {
 
 #page
 {
+	width:800px;
 	border-radius:8px;
 	margin: 0 auto 0 auto; 
 	margin-top:25px;
@@ -26,24 +27,23 @@ p {
 	height:auto;
 	position: relative; 
 	overflow: hidden; 
-	width: 740px;
 	margin-bottom:25px;
 }
 
 #header
 {
-	width:740px;
+	width:800px;
 	display:inline-block;
 }
 
-#bar
+#menu
 {
 	text-align: left;
 	padding: 0;
 	margin: 0;
 }
 
-#bar ul
+#menu ul
 {
 	display:inline-block;
 	list-style-type: none;
@@ -51,13 +51,14 @@ p {
 	margin: 0;
 }
 
-#bar li
+#menu li
 {
 	float:left;
 }
 
-#bar a
+#menu a
 {
+	width: 70px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
@@ -74,21 +75,20 @@ p {
 	text-decoration:none;
 	text-shadow:0px 1px 0px black;
 	text-align: center;
-	width: 70px;
 }
 
-#bar a:hover {
+#menu a:hover {
 	-webkit-box-shadow: 1px 4px 5px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    1px 4px 5px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         1px 4px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
-#bar a:active {
+#menu a:active {
 	position:relative;
 	top:1px;
 }
 
-#bar a#current {
+#menu a#current {
 	-webkit-box-shadow: 1px 4px 5px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    1px 4px 5px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         1px 4px 5px 0px rgba(50, 50, 50, 0.75);
