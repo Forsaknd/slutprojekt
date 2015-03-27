@@ -26,20 +26,19 @@ p {
 
 #page
 {
-	width:800px;
-	border-radius:8px;
+	width: 100%;
 	margin: 0 auto 0 auto; 
-	margin-top:25px;
 	display: block; 
-	height:auto;
+	height:	auto;
 	position: relative; 
 	overflow: hidden; 
 	margin-bottom:25px;
+	background-color: white; 
 }
 
 #header
 {
-	width:800px;
+	width: 100%;
 	display:inline-block;
 }
 
