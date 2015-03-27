@@ -20,6 +20,9 @@ body {
 p {
 	text-align: left;
 }
+#p1{
+	text-align: center;
+}
 
 #page
 {
@@ -123,13 +126,11 @@ p {
 	font-size:9px;
 	color:#2A2A2A;
 	width:auto;
-	height: 10em;
+	height: 4em;
 	margin-top: 0,5em;
 	right: 0;
 	left: 0;
 	bottom:0;      
-	border:1px solid black;
 	position: absolute;
-	
-	
+	width: 60%;
 }
