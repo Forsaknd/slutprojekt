@@ -5,13 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<title>Tropicarium</title>
 </head>
-
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jqFancyTransitions.js" type="text/javascript"></script>
 <body>
     <div id="page">
         <div id="header">
-        	<img src="images/logo.png" alt="logo">         
+        	<img src="images/logo.png" alt="logo">  
 		</div>
-	
 		<div id="menu">
         	<ul>
 				<li class='active has-sub'><a href='#'><span>Upplevelser</span></a>
@@ -23,15 +23,33 @@
                <li><a href='#'><span>Kontakta oss</span></a></li>
                <li class='last'><a href='#'><span>Sub Product</span></a></li>
 			</ul>
-		</div>
+		</div>	
+		
 		
         <div id="content">
+			<!--<div id='slideshowHolder'>
+				<img src='images/haj.png' alt='haj' />
+				<img src='images/krokodil.png' alt='krokodil' />
+				<img src='images/Cobra-Snake.png' alt='Cobra-Snake' />
+			</div>-->
+			<script>
+    $(document).ready( function(){
+    $('#slideshowHolder').jqFancyTransitions({ width: 400, height: 300 });
+});
+</script>
         </div> 
 	</div>
 	<div id="footer">
+<<<<<<< HEAD
 		<p>Tropicarium AB, 618 93 Kolmården, Telefon: 011 - 39 52 50, Telefax: 011 - 39 52 69, Mail: info@tropicarium.se</p>
 		<p>© Tropicarium Kolmården 2014 Produktion: <a href="http://www.aumpage.net/">AumPage Network</a></p>
 	</div>
 </body>
 
+=======
+			<p id="p1">Tropicarium AB, 618 93 Kolmården, Telefon: 011 - 39 52 50, Telefax: 011 - 39 52 69, Mail: info@tropicarium.se</p>
+			<p id="p1">© Tropicarium Kolmården 2014 Produktion: AumPage Network</p>
+	</div>
+</body>
+>>>>>>> origin/master
 </html>
