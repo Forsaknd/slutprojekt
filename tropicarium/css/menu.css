@@ -14,7 +14,6 @@
 #menu nav {
 	position: fixed;
 	top: 0;
-	left: 0;
 	width: 100%;
 	background: #fff;
 	box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
@@ -22,17 +21,20 @@
 }
 
 #menu nav ul {
+	padding: 0;
+	margin: 0;
     list-style: none;
     position: relative;
     float: left;
-    display: inline-table;
 }
   
 #menu nav ul li {
-	float: left;
+	padding: 0;
+	margin: 0;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+	float: left;
 }
 
 #menu nav ul li:hover {
@@ -40,30 +42,33 @@
 }
 	
 #menu nav ul li:hover > ul {
-	display: block;
+	display: inline-block;
 }
 	
 #menu nav ul li {
 	float: left;
+	padding: 0;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
-	
+
 #menu nav ul li a {
-	display: block; 
+	display: inline-block; 
 	padding: 30px 20px;
 	color: #222; 
 	font-size: .9em;
 	letter-spacing: 1px;
 	text-decoration: none;
 	text-transform: uppercase;
+	position: relative;
 }
 
 #menu nav ul li img {
+	margin-right: 10px;
 	display: block;
-	padding: 5px 5px;
-	color: #222; 
+	padding: 5.5px 5.5px;
+	color: #222;
 	font-size: .9em;
 	letter-spacing: 1px;
 	text-decoration: none;
@@ -73,7 +78,7 @@
 #menu nav ul ul {
 	display: none;
 	background: #fff;
-	position: absolute; 
+	position: absolute;
 	top: 100%;
 	box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
 	border: 1px solid rgba(0,0,0,.1);
@@ -87,10 +92,10 @@
 #menu nav ul ul li a {
     padding: 15px 30px;
     border-bottom: 1px solid rgba(0,0,0,.05);
+	margin: 0px;
 }
 
 #menu nav ul ul ul {
-	position: absolute; 
-	left: 100%; 
+	position: relative;
 	top:0;
 }	
