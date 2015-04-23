@@ -1,15 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
-#menu, #menu:before, #menu:after {
+#menu {
 	padding: 0;
 	margin: 0;
 	font-family: 'Lato', sans-serif;
+	position: fixed;
 }
 
 #menu logo {
-	
+	display: inline-block;
 }
-/*| Navigation |*/
 
 #menu nav {
 	position: fixed;
@@ -24,8 +24,7 @@
 #menu nav ul {
     list-style: none;
     position: relative;
-    float: right;
-    margin-right: 100px;
+    float: left;
     display: inline-table;
 }
   
@@ -61,6 +60,16 @@
 	text-transform: uppercase;
 }
 
+#menu nav ul li img {
+	display: block;
+	padding: 5px 5px;
+	color: #222; 
+	font-size: .9em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
 #menu nav ul ul {
 	display: none;
 	background: #fff;
@@ -69,13 +78,14 @@
 	box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
 	border: 1px solid rgba(0,0,0,.1);
 }
-	  
+
 #menu nav ul ul li {
-	float: none; position: relative;
+	float: none;
+	position: relative;
 }
 
 #menu nav ul ul li a {
-    padding: 15px 30px; 
+    padding: 15px 30px;
     border-bottom: 1px solid rgba(0,0,0,.05);
 }
 
