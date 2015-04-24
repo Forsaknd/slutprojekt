@@ -64,10 +64,18 @@
 	position: relative;
 }
 
+#menu nav ul li a.logo {
+	display: inline-block; 
+	padding: 0;
+	margin: 0;
+	border: 0;
+	position: relative;
+}
+
 #menu nav ul li img {
 	margin-right: 10px;
 	display: block;
-	padding: 5.5px 5.5px;
+	padding: 4px 4px;
 	color: #222;
 	font-size: .9em;
 	letter-spacing: 1px;
